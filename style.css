@@ -1,74 +1,16 @@
-/* 
 
-Common
-
-*/
 body {
-  font-family: "monospace", sans-serif;
+  font-family: monospace;
 }
-
 .font-primary {
   color: #00abae;
 }
-
 .title-icon {
   font-size: 20px;
   font-weight: bold;
 }
-
-/* 
-about
- */
-#about {
-  margin: 60px auto;
-  max-width: 400px;
-  text-align: center;
-}
-
-#about img {
-  border-radius: 50%;
-  width: 120px;
-  margin-bottom: 10px;
-}
-
-#about .name {
-  font-size: 19px;
-}
-
-#about .vocation {
-  font-size: 17px;
-  color: #ababab;
-  margin-bottom: 10px;
-}
-
-#about .skills {
-  font-size: 14px;
-  color: #00abae;
-  margin-bottom: 10px;
-}
-
-#about .email {
-  font-size: 14px;
-  margin-top: 30px;
-}
-
-#about .icons {
-  margin-top: 20px;
-  font-size: 30px;
-}
-
-#about .icons a {
-  color: #000;
-}
-
-/* 
-paragrapgh and headingds
- */
-
 p {
   font-size: 14px;
-  margin-bottom: 10px;
-  color: black;
 }
 
 h2 {
@@ -76,34 +18,54 @@ h2 {
   font-size: 23px;
   margin-bottom: 20px;
 }
-
 a.font-black {
-  color: #000 !important;
+  color: black !important;
+}
+#about {
+  margin: 60px auto;
+  max-width: 400px;
+  text-align: center;
+}
+#about img {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 10px;
+}
+#about .name {
+  font-size: 19px;
+}
+#about .vocation {
+  font-size: 17px;
+  color: #ababab;
+  margin-bottom: 10px;
+}
+#about.skills {
+  font-size: 14px;
+  color: #00abae;
+  margin-bottom: 10px;
+}
+#about .email {
+  margin-top: 14px;
+  font-size: 15px;
+}
+#about .icons {
+  margin-top: 20px;
+  font-size: 30px;
+}
+#about .icons a {
+  color: black;
 }
 
-/* 
-project section
-project area
-*/
-
-#project {
+#Project {
   margin: 60px auto;
   width: 80%;
 }
-
-#project h2 {
+#Project h2 {
   text-align: center;
 }
-
-#project .card img {
+#Project .card img {
   width: 100%;
 }
-
-#project .card-titile {
+#Project .card-title {
   font-weight: bold;
-}
-
-#project .card video {
-  width: 100%;
-  height: 400px;
 }
